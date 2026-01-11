@@ -36,7 +36,7 @@ on:
 
 env:
   AZURE_CONTAINER_REGISTRY: "CustomerServiceeistry"
-  CONTAINER_NAME: "JamkhanamServices"
+  CONTAINER_NAME: "jamkhanamservices"
   RESOURCE_GROUP: "MyMicroserviceResources"
   CLUSTER_NAME: "MyManagedProdCluster2"
   DEPLOYMENT_MANIFEST_PATH: "https://github.com/Jamkhanam/CustomerService/blob/main/deploy.yaml"
