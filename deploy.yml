@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jamkhanamservices
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jamkhanamservices
+  template:
+    metadata:
+      labels:
+        app: jamkhanamservices
+    spec:
+      containers:
+        - name: jamkhanamservices
+          image: customerserviceeistry.azurecr.io/jamkhanamservices:${{ github.sha }}
+          ports:
+            - containerPort: 80
