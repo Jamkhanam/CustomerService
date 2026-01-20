@@ -10,7 +10,7 @@ env:
   CONTAINER_NAME: "jamkhanamservices"
   RESOURCE_GROUP: "MyMicroserviceResources"
   CLUSTER_NAME: "MyManagedProdCluster2"
-  DEPLOYMENT_MANIFEST_PATH: "deploy.yaml"
+  DEPLOYMENT_MANIFEST_PATH: "deploy.yml"
 
 jobs:
   build:
